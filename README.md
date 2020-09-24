@@ -2,6 +2,7 @@
 [Jean Pablo Vieira de Mello](https://github.com/Jpvmello), [Lucas Tabelini Torres](https://github.com/lucastabelini), [Rodrigo F. Berriel](http://rodrigoberriel.com/), [Thiago M. Paixão](https://sites.google.com/view/thiagopx), [Alberto F. De Souza](https://inf.ufes.br/~alberto), [Claudine Badue](https://www.inf.ufes.br/~claudine/), [Nicu Sebe](http://disi.unitn.it/~sebe/) and [Thiago Oliveira-Santos](https://www.inf.ufes.br/~todsantos/home)
 
 Source code, trained models and image sets referring to the paper **Deep traffic light detection by overlaying synthetic context on arbitrary natural images**, published in [SIBGRAPI 2020](https://sibgrapi2020.cin.ufpe.br) C&G Track ([Elsevier Computer & Graphics Journal (CAG)](http://www.journals.elsevier.com/computers-and-graphics/) special issue) are available here.
+
 DOI: **to be published**
 
 ![overview.png](images/overview.png)
