@@ -63,6 +63,11 @@ y1      Top-left vertical coordinate
 x2      Bottom-right horizontal coordinate
 y2      Bottom-right vertical coordinate
 ```
+
+## Qualitative results
+
+![![video.png](images/video.png)](https://drive.google.com/file/d/1UosUxayPyi1M8qn44FBcwrDOqMKw8Itu/view?usp=sharing)
+
 ## Generate your own foregrounds
 
 ***Note: the 3D car model used in this work was available in [here](https://free3d.com/3d-model/bmw-x5-1542.html), but the link seems not to be working anymore. Also, information about the model creator does not seem to be available. I'm not sure if the model can be freely shared without his/her consent and need to find a way to contact him/her about the access to this model. Meanwhile, you can use the synthetic dataset provided in section Synthetic foregrounds. If for some reason this link becomes available again, consider following what is described in this section in order to generate your own foregrounds.***
