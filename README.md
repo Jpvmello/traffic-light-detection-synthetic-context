@@ -66,7 +66,7 @@ y2      Bottom-right vertical coordinate
 
 ## Qualitative results
 
-![![video.png](images/video.png)](https://drive.google.com/file/d/1UosUxayPyi1M8qn44FBcwrDOqMKw8Itu/view?usp=sharing)
+![video.png](images/video.png)]
 
 ## Generate your own foregrounds
 
