@@ -2,9 +2,10 @@
 [Jean Pablo Vieira de Mello](https://github.com/Jpvmello), [Lucas Tabelini Torres](https://github.com/lucastabelini), [Rodrigo F. Berriel](http://rodrigoberriel.com/), [Thiago M. Paixão](https://sites.google.com/view/thiagopx), [Alberto F. De Souza](https://inf.ufes.br/~alberto), [Claudine Badue](https://www.inf.ufes.br/~claudine/), [Nicu Sebe](http://disi.unitn.it/~sebe/) and [Thiago Oliveira-Santos](https://www.inf.ufes.br/~todsantos/home)
 
 Source code, trained models and image sets referring to the paper **Deep traffic light detection by overlaying synthetic context on arbitrary natural images**, published in [SIBGRAPI 2020](https://sibgrapi2020.cin.ufpe.br) C&G Track ([Elsevier Computer & Graphics Journal (CAG)](http://www.journals.elsevier.com/computers-and-graphics/) special issue) are available here.
+
 DOI: **to be published**
 
-![overview.png](https://drive.google.com/uc?export=view&id=1ncqvSmgIC9sVZ6ypsAWuItCZ785v3xBe)
+![overview.png](images/overview.png)
 
 ### Abstract
 
@@ -64,6 +65,8 @@ y2      Bottom-right vertical coordinate
 ```
 ## Generate your own foregrounds
 
+***Note: the 3D car model used in this work was available in [here](https://free3d.com/3d-model/bmw-x5-1542.html), but the link seems not to be working anymore. Also, information about the model creator does not seem to be available. I'm not sure if the model can be freely shared without his/her consent and need to find a way to contact him/her about the access to this model. Meanwhile, you can use the synthetic dataset provided in section Synthetic foregrounds. If for some reason this link becomes available again, consider following what is described in this section in order to generate your own foregrounds.***
+
 If you wish to generate your own foregrounds set, consider installing the [Processing](https://processing.org/) environment and running the file `generate_foregrounds.pde` (note that a `.pde` file must be contained within a directory with the same name without extension). Browse to the Processing installation path and run:
 
 `./processing-java --sketch=<pde-path> --run <num-imgs> [<cxt-restric>] [<seed>]`, where
@@ -74,4 +77,4 @@ num-imgs    Number of output foreground images
 cxt-restric Optional. If "context", only contextualized foregrounds will be generated. If "no-context", only uncontextualized foregrounds will be generated. If other string or not provided, paired contextualized and uncontextualized sets will be generated
 seed        Optional. Initial random seed. Default: 1
 ```
-**Note:** in the current implementation, each scene is generated according to a different random seed, so that paired contextualized and uncontextualized scenes can be generated equivalenty and distinct from other pairs. The random seed is incremented by one, from its initial value, for each scene which is generated or discarded due to the abscence of elligible traffic lights. The final seed value will be exhibit in the end of the run and saved in a separated file. Be careful not to generate repeated scenes in different sets if not desired. The foreground images provided in the section **Synthetic foregrounds** were generated using random seeds from 1 to 20,614 (train set) and from 30,000 to 37,211 (validation set). The code can be modified to use a single random seed and make equivalent drawing in two (with and without context) different rendering objects simultaneously.
+***Note:*** in the current implementation, each scene is generated according to a different random seed, so that paired contextualized and uncontextualized scenes can be generated equivalenty and distinct from other pairs. The random seed is incremented by one, from its initial value, for each scene which is generated or discarded due to the abscence of elligible traffic lights. The final seed value will be exhibit in the end of the run and saved in a separated file. Be careful not to generate repeated scenes in different sets if not desired. The foreground images provided in section **Synthetic foregrounds** were generated using random seeds from 1 to 20,614 (train set) and from 30,000 to 37,211 (validation set). The code can be modified to use a single random seed and make equivalent drawing in two (with and without context) different rendering objects simultaneously.
