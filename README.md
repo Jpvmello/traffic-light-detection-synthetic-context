@@ -3,7 +3,7 @@
 
 Source code, trained models and image sets referring to the paper **Deep traffic light detection by overlaying synthetic context on arbitrary natural images**, published in [SIBGRAPI 2020](https://sibgrapi2020.cin.ufpe.br) C&G Track ([Elsevier Computer & Graphics Journal (CAG)](http://www.journals.elsevier.com/computers-and-graphics/) special issue) are available here.
 
-DOI: [https://doi.org/10.1016/j.cag.2020.09.012](https://doi.org/10.1016/j.cag.2020.09.012)
+DOI: [10.1016/j.cag.2020.09.012](https://doi.org/10.1016/j.cag.2020.09.012)
 
 ![overview.png](images/overview.png)
 
