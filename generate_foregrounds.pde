@@ -339,8 +339,8 @@ class RoadPart {
                 pg.rotateY(-PI/2);
               else
                 pg.rotateY(PI/2);
-              //pg.scale(5);
-              pg.scale(10);
+              pg.scale(5);
+              //pg.scale(10);
 
               if (this.front && height/2 + y < distance) {
                 float[] v1 = new float[] {-0.5*carW, +1*carH,  -0.5*carD};
