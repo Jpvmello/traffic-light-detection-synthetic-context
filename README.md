@@ -72,7 +72,7 @@ y2      Bottom-right vertical coordinate
 
 ## Generate your own foregrounds
 
-***Note: the 3D car model used in this work was available in [here](https://free3d.com/3d-model/bmw-x5-1542.html), but the link does not work anymore because of copyright issues with BMW. Try generating your our foregrounds using another vehicle model, always checking the correct licensing.***
+***Note: the 3D car model used in this work was available in [here](https://free3d.com/3d-model/bmw-x5-1542.html), but the link does not work anymore because of copyright issues with BMW and should not be redistributed (I personally contacted BMW and my use of the model seems to be okay). Try generating your our foregrounds using another vehicle model, always checking the correct licensing.***
 
 If you wish to generate your own foregrounds set, consider installing the [Processing](https://processing.org/) environment and running the file `generate_foregrounds.pde` (note that a `.pde` file must be contained within a directory with the same name without extension). Browse to the Processing installation path and run:
 
