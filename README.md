@@ -52,7 +52,7 @@ The synthetic foregrounds used to train the models and their respective annotati
 
 ### Proprietary dataset
 
-The proprietary dataset used to box-validate and test the models is available [here](https://drive.google.com/drive/folders/1iATG5suB9bHnFi9x6XaWtjG-uzwsJ8kb) under the [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) license, along with the images' respective annotations [cc-by-shield](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg). The annotations files describe one bounding box per row, following this pattern:
+The proprietary dataset used to box-validate and test the models is available [here](https://drive.google.com/drive/folders/1iATG5suB9bHnFi9x6XaWtjG-uzwsJ8kb) under the [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/) license, along with the images' respective annotations [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg. The annotations files describe one bounding box per row, following this pattern:
 
 `path,x1,y1,x2,y2,class`,
 
